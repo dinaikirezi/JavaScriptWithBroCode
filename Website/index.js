@@ -11,3 +11,5 @@ console.log (squareArray([1,4,6,2,7]));
 
 let word = "I am a developer";
 let wordArray = word.split(" ").reverse().join(" ");
+console.log("Before reverse : " + word);
+console.log("After reverse : " + wordArray);
